@@ -1,0 +1,180 @@
+{
+    "smart_things_token": "<TOKEN_HERE>",
+    "webcore_installation_id": "<INSTALLATION_ID_HERE>",
+    "light_api_piston_id": ":<PISTON_ID_HERE>:",
+    "categories": [
+        {
+            "text": "Media",
+            "blocks": [
+                {
+                    "text": "Download TV Shows",
+                    "icon": "0xe3fb",
+                    "onTap": {
+                        "action": "launch_url",
+                        "args": [
+                            "https://sonarr.tv/"
+                        ]
+                    }
+                },
+                {
+                    "text": "Download Movies",
+                    "icon": "0xe40d",
+                    "onTap": {
+                        "action": "launch_url",
+                        "args": [
+                            "https://radarr.video/"
+                        ]
+                    }
+                },
+                {
+                    "text": "Download Music",
+                    "icon": "0xe415",
+                    "onTap": {
+                        "action": "launch_url",
+                        "args": [
+                            "https://lidarr.audio/"
+                        ]
+                    }
+                },
+                {
+                    "text": "Download Torrent",
+                    "icon": "0xe172",
+                    "onTap": {
+                        "action": "launch_url",
+                        "args": [
+                            "https://deluge-torrent.org/"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Light Groups",
+            "blocks": [
+                {
+                    "text": "All Lights",
+                    "icon": "0xf855",
+                    "type": "bulb",
+                    "devices": [
+                        "Entryway Fan",
+                        "Entryway Fan Bulb 2",
+                        "Entryway Fan Bulb 3",
+                        "Entryway Fan Bulb 4",
+                        "Living Room Fan",
+                        "Living Room Fan Bulb 2",
+                        "Living Room Fan Bulb 3",
+                        "Living Room Fan Bulb 4",
+                        "Bottom Stair Light",
+                        "Middle Stair Light",
+                        "Loft Light 1",
+                        "Loft Light 2",
+                        "Master Fan",
+                        "Master Fan Bulb 2",
+                        "Master Fan Bulb 3",
+                        "Master Fan Bulb 4"
+                    ]
+                },
+                {
+                    "text": "Downstairs Lights",
+                    "icon": "0xf855",
+                    "type": "bulb",
+                    "devices": [
+                        "Entryway Fan",
+                        "Entryway Fan Bulb 2",
+                        "Entryway Fan Bulb 3",
+                        "Entryway Fan Bulb 4",
+                        "Living Room Fan",
+                        "Living Room Fan Bulb 2",
+                        "Living Room Fan Bulb 3",
+                        "Living Room Fan Bulb 4",
+                        "Bottom Stair Light"
+                    ]
+                },
+                {
+                    "text": "Upstairs Lights",
+                    "icon": "0xf855",
+                    "type": "bulb",
+                    "devices": [
+                        "Middle Stair Light",
+                        "Loft Light 1",
+                        "Loft Light 2",
+                        "Master Fan",
+                        "Master Fan Bulb 2",
+                        "Master Fan Bulb 3",
+                        "Master Fan Bulb 4"
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "All Devices",
+            "blocks": [
+                {
+                    "text": "Master Fan",
+                    "icon": "0xf855",
+                    "type": "bulb",
+                    "devices": [
+                        "Master Fan",
+                        "Master Fan Bulb 2",
+                        "Master Fan Bulb 3",
+                        "Master Fan Bulb 4"
+                    ]
+                },
+                {
+                    "text": "Entryway Fan",
+                    "icon": "0xf855",
+                    "type": "bulb",
+                    "devices": [
+                        "Entryway Fan",
+                        "Entryway Fan Bulb 2",
+                        "Entryway Fan Bulb 3",
+                        "Entryway Fan Bulb 4"
+                    ]
+                },
+                {
+                    "text": "Living Room Fan",
+                    "icon": "0xf855",
+                    "type": "bulb",
+                    "devices": [
+                        "Living Room Fan",
+                        "Living Room Fan Bulb 2",
+                        "Living Room Fan Bulb 3",
+                        "Living Room Fan Bulb 4"
+                    ]
+                },
+                {
+                    "text": "Bottom Stair Light",
+                    "icon": "0xf855",
+                    "type": "bulb",
+                    "devices": [
+                        "Bottom Stair Light"
+                    ]
+                },
+                {
+                    "text": "Middle Stair Light",
+                    "icon": "0xf855",
+                    "type": "bulb",
+                    "devices": [
+                        "Middle Stair Light"
+                    ]
+                },
+                {
+                    "text": "Loft Light 1",
+                    "icon": "0xf855",
+                    "type": "bulb",
+                    "devices": [
+                        "Loft Light 1"
+                    ]
+                },
+                {
+                    "text": "Loft Light 2",
+                    "icon": "0xf855",
+                    "type": "bulb",
+                    "devices": [
+                        "Loft Light 2"
+                    ]
+                }
+            ]
+        }
+    ]
+}

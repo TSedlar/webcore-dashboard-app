@@ -1,0 +1,26 @@
+name: webcore_dashboard
+description: A flutter application used to map actions to webCoRE pistons
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^0.13.4
+  flutter_colorpicker: ^1.0.3
+  shared_preferences: ^2.0.11
+  url_launcher: ^6.0.17
+  file_picker: ^4.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
